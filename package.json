@@ -1,0 +1,35 @@
+{
+  "name": "bunyan-serializer-error",
+  "version": "0.0.1",
+  "description": "enhanced bunyan error serializer",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bangbang93/bunyan-serializer-error.git"
+  },
+  "keywords": [
+    "bunyan",
+    "serializer"
+  ],
+  "author": "bangbang93",
+  "license": "LGPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/bangbang93/bunyan-serializer-error/issues"
+  },
+  "homepage": "https://github.com/bangbang93/bunyan-serializer-error#readme",
+  "optionalDependencies": {
+    "bunyan": "*"
+  },
+  "devDependencies": {
+    "@types/bunyan": "^1.8.4",
+    "typescript": "^3.0.3"
+  },
+  "dependencies": {
+    "lodash.omit": "^4.5.0"
+  }
+}
