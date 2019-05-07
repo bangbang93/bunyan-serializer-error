@@ -1,6 +1,6 @@
 {
   "name": "bunyan-serializer-error",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "enhanced bunyan error serializer",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
